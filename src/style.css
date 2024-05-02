@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.vue-tel-input {
+    border-radius: 0.5rem;
+    display: flex;
+    border: 1px solid #bbb;
+    text-align: left;
+    padding: 6px;
+    background: white;
+}
+
