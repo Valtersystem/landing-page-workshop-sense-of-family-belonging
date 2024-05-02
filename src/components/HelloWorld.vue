@@ -10,14 +10,14 @@ import More from './More.vue';
     </p>
   </div>
   <div
-    class="bg-[url('../img-bg-section.jpg')] bg-cover bg-center bg-no-repeat w-full"
+    class="bg-[url('/img-bg-section.jpg')] bg-cover bg-center bg-no-repeat w-full"
   >
     <div class="flex flex-col md:flex-row justify-center items-center">
       <div>
         <ContactForm />
       </div>
       <div>
-        <img src="../profile.webp" alt="photo profile" />
+        <img src="/profile.webp" alt="photo profile" />
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@ import More from './More.vue';
     <More />
   </div>
   <div
-    class="bg-[url('../banner.webp')] bg-cover bg-center bg-no-repeat w-full flex justify-center p-8"
+    class="bg-[url('/banner.webp')] bg-cover bg-center bg-no-repeat w-full flex justify-center p-8"
   >
     <div class="text-center text-white my-4">
       <p class="text-xl">Texto:</p>
@@ -45,10 +45,10 @@ import More from './More.vue';
 
   <div class="flex flex-col lg:flex-row justify-center items-center lg:items-start  my-16">
     <div class="lg:block flex flex-col">
-      <img src="../profile1.webp" alt="Phot Profile" />
+      <img src="/profile1.webp" alt="Phot Profile" />
       <p class="text-center text-lg font-semibold p-4">Texto Texto Texto</p>
       <div>
-        <img src="../tes.webp" alt="" />
+        <img src="/tes.webp" alt="" />
       </div>
     </div>
 
